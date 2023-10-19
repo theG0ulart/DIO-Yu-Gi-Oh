@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh Jo-ken-po Edition</title>
+
+
+    
+    
+
+    <!--    Reset CSS-->
+    <link rel="stylesheet" type="text/css" href="/src/styles/reset.css">
+
+    <!--    Main Style -->
+    <link rel="stylesheet" type="text/css" href="/src/styles/main.css">
+
+
+    <!--    Estilização Padrão do Jogo -->
+    <link rel="stylesheet" type="text/css" href="/src/styles/buttons.css">
+    <link rel="stylesheet" type="text/css" href="/src/styles/containers_and_frames.css">
+
+</head>
+
+
+<body>
+    
+    <div class="bg-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/assets/video/yugi.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+    <div class="container framed-golden-2">
+        <div class="container__left">
+            <div class="score">
+                <span>Win:</span> | <span>Lose:</span>
+            </div>
+
+            <div class="spell">
+                <span>Spell selected:</span>
+            </div>
+            
+            
+
+
+        </div>
+
+        <div class="container__right">
+
+
+        </div>
+    </div>
+
+    <script src="src/scripts/engine.js" defer></script>
+</body>
+</html>
