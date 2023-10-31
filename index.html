@@ -25,20 +25,16 @@
 
 <body>
     
-    <div class="bg-video">
-        <video class="video" autoplay loop muted>
-            <source src="./src/assets/video/yugi.mp4" type="video/mp4">
-        </video>
-    </div>
+   
 
 
-    <div class="container framed-golden-2">
-        <div class="container__left">
-            <div class="score">
+    <div class="container">
+        <div class="container__left framed-golden-2">
+            <div class="score text-box">
                 <span>Win:</span> | <span>Lose:</span>
             </div>
 
-            <div class="spell">
+            <div class="spell text-box">
                 <span>Spell selected:</span>
             </div>
             
@@ -48,7 +44,21 @@
         </div>
 
         <div class="container__right">
+            <div class="bg-video">
+                <video class="video" autoplay loop muted>
+                    <source src="./src/assets/video/yugi.mp4" type="video/mp4">
+                </video>
+            </div> 
 
+
+            <div class="dock-cards framed"></div>
+            
+            <div class="match">
+                <div class="selectedCard"></div>
+                <img src="/src/assets/icons/millenium2.png" alt="millenium eye" class="eye">
+                <div class="selectedCard"></div>
+            </div>
+            <div class="dock-cards framed"></div>
 
         </div>
     </div>

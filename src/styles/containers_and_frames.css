@@ -83,7 +83,7 @@
 /* game div with soft grey background image*/
 .framed-grey {
   position: relative;
-
+  z-index: 1;
   /* border */
   border-style: solid;
   border-image-source: url("../assets/rpg/border-image-grey.png");
